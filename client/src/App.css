@@ -1,0 +1,11 @@
+body{
+   overflow-x: hidden;
+}
+
+.app{
+  min-height: 100vh !important; 
+  background: rgb(226, 233, 233);
+}
+.nav-menu{
+  height: 100%;
+}

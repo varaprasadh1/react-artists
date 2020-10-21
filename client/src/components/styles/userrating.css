@@ -1,0 +1,25 @@
+.rating-container{
+    max-width: 400px;
+}
+
+.rating-bar{
+   margin: 0.5em;
+   align-items: center;
+}
+
+.rating-bar .rating-indicator{
+    height: 10px;
+    margin: 0 1em;
+    background: rgb(223, 215, 215);
+    flex: 1;
+    border-radius: 0.5em;
+    position: relative;
+}
+.rating-bar .rating-indicator-fill{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    background: orange;
+}
+
